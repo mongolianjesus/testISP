@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.env
+app/.gradio
+.venv/
+.idea/
+__pycache__/
