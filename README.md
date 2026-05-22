@@ -7,7 +7,7 @@
 
 ## Requirements
 
-- Python 3.10
+- Python 3.10+
 - `uv` для разворачивания GraphQL
 - API ключ для модели
 - Base URL модели
