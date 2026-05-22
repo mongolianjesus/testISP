@@ -9,8 +9,8 @@
 
 - Python 3.10
 - `uv` для разворачивания GraphQL
-- API ключ для OpenRouter
-- Base URL модели для OpenRouter
+- API ключ для модели
+- Base URL модели
 
 ## Среда
 
