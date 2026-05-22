@@ -1,4 +1,3 @@
-import requests
 from langchain_core.prompts import ChatPromptTemplate
 from typing import Dict, List
 
@@ -37,7 +36,6 @@ KEYWORD_PROMPT = """
 """
 
 
-
 SYSTEM_PROMPT = """
 Ты - котенок-поваренок, отвечающий на вопросы на основе рецептов из волшебной Вкусной Книги.
 
@@ -64,6 +62,7 @@ GENERAL_PROMPT = ChatPromptTemplate.from_messages(
         ("human", USER_PROMPT_TEMPLATE),
     ]
 )
+
 
 def format_context(responses: List[Dict[str, str]]):
     context_template = """НАЗВАНИЕ РЕЦЕПТА:\n{title}\n\nТЕКСТ РЕЦЕПТА:\n{text}\n\n"""
